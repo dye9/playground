@@ -1,0 +1,142 @@
+{
+  "enabledPlugins": {
+    "andrej-karpathy-skills@karpathy-skills": true,
+    "caveman@caveman": true,
+    "claude-hud@claude-hud": true,
+    "claude-mem@thedotmack": true,
+    "document-skills@anthropic-agent-skills": true,
+    "example-skills@anthropic-agent-skills": true,
+    "mattpocock-skills@claude-plugins-official": true,
+    "planning-with-files@planning-with-files": true,
+    "ponytail@ponytail": true,
+    "python-development@claude-code-workflows": true,
+    "superpowers@claude-plugins-official": true,
+    "taste-skill@taste-skill": true,
+    "ui-ux-pro-max@ui-ux-pro-max-skill": true
+  },
+  "extraKnownMarketplaces": {
+    "anthropic-agent-skills": {
+      "source": {
+        "repo": "anthropics/skills",
+        "source": "github"
+      }
+    },
+    "caveman": {
+      "source": {
+        "repo": "JuliusBrussee/caveman",
+        "source": "github"
+      }
+    },
+    "claude-code-workflows": {
+      "source": {
+        "repo": "wshobson/agents",
+        "source": "github"
+      }
+    },
+    "claude-hud": {
+      "source": {
+        "repo": "jarrodwatts/claude-hud",
+        "source": "github"
+      }
+    },
+    "claude-plugins-official": {
+      "source": {
+        "repo": "anthropics/claude-plugins-official",
+        "source": "github"
+      }
+    },
+    "karpathy-skills": {
+      "source": {
+        "repo": "forrestchang/andrej-karpathy-skills",
+        "source": "github"
+      }
+    },
+    "mattpocock": {
+      "source": {
+        "repo": "mattpocock/skills",
+        "source": "github"
+      }
+    },
+    "planning-with-files": {
+      "source": {
+        "repo": "OthmanAdi/planning-with-files",
+        "source": "github"
+      }
+    },
+    "ponytail": {
+      "source": {
+        "repo": "DietrichGebert/ponytail",
+        "source": "github"
+      }
+    },
+    "superpowers-marketplace": {
+      "source": {
+        "repo": "obra/superpowers-marketplace",
+        "source": "github"
+      }
+    },
+    "taste-skill": {
+      "source": {
+        "repo": "Leonxlnx/taste-skill",
+        "source": "github"
+      }
+    },
+    "thedotmack": {
+      "source": {
+        "repo": "thedotmack/claude-mem",
+        "source": "github"
+      }
+    },
+    "ui-ux-pro-max-skill": {
+      "source": {
+        "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+        "source": "github"
+      }
+    }
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "hooks": [
+          {
+            "command": "if command -v graphify \u003e/dev/null 2\u003e\u00261; then graphify hook-guard search; fi",
+            "timeout": 10,
+            "type": "command"
+          }
+        ],
+        "matcher": "Bash|Grep"
+      },
+      {
+        "hooks": [
+          {
+            "command": "if command -v graphify \u003e/dev/null 2\u003e\u00261; then graphify hook-guard read; fi",
+            "timeout": 10,
+            "type": "command"
+          }
+        ],
+        "matcher": "Read|Glob"
+      }
+    ],
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "command": "if command -v graphify \u003e/dev/null 2\u003e\u00261; then graphify hook-guard compact; fi",
+            "timeout": 10,
+            "type": "command"
+          }
+        ],
+        "matcher": "compact"
+      },
+      {
+        "hooks": [
+          {
+            "command": "bd prime --hook-json",
+            "type": "command"
+          }
+        ],
+        "matcher": ""
+      }
+    ]
+  }
+}
