@@ -64,6 +64,17 @@ Strong success criteria let you loop independently. Weak criteria ("make it work
 
 **These guidelines are working if:** fewer unnecessary changes in diffs, fewer rewrites due to overcomplication, and clarifying questions come before implementation rather than after mistakes.
 
+## Workflow: lean planning (overrides Superpowers defaults)
+
+Superpowers, Ponytail and the guidelines above all apply. Where they conflict, use this:
+
+- **Small task** (one file, obvious fix): no brainstorm, no plan. Just do it, then verify.
+- **Bigger task** (new feature, several files): ask only the questions that change the build, then write a plan of at most 10 lines in the chat (step → verify check). Wait for a yes, then build.
+- Plans go in the chat, not in plan files, unless the user asks for a file.
+- Build inline. Do not use `subagent-driven-development`, parallel agents or review subagents unless the user asks: each subagent re-reads the context and multiplies token cost.
+- TDD only for real logic (branches, parsing, money, auth). Use Ponytail's rule: one small test or self-check, not a full suite.
+- Build each step with Ponytail's smallest-complete-change rule. Finish with Karpathy's verify step.
+
 ## graphify
 
 This project has a knowledge graph at graphify-out/ with god nodes, community structure, and cross-file relationships.
