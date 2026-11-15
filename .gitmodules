@@ -1,0 +1,128 @@
+[submodule "repos/context7"]
+	path = repos/context7
+	url = https://github.com/upstash/context7.git
+	shallow = true
+[submodule "repos/superpowers"]
+	path = repos/superpowers
+	url = https://github.com/obra/superpowers.git
+	shallow = true
+[submodule "repos/claude-mem"]
+	path = repos/claude-mem
+	url = https://github.com/thedotmack/claude-mem.git
+	shallow = true
+[submodule "repos/playwright-mcp"]
+	path = repos/playwright-mcp
+	url = https://github.com/microsoft/playwright-mcp.git
+	shallow = true
+[submodule "repos/repomix"]
+	path = repos/repomix
+	url = https://github.com/yamadashy/repomix.git
+	shallow = true
+[submodule "repos/anthropics-skills"]
+	path = repos/anthropics-skills
+	url = https://github.com/anthropics/skills.git
+	shallow = true
+[submodule "repos/serena"]
+	path = repos/serena
+	url = https://github.com/oraios/serena.git
+	shallow = true
+[submodule "repos/claude-code-router"]
+	path = repos/claude-code-router
+	url = https://github.com/musistudio/claude-code-router.git
+	shallow = true
+[submodule "repos/ECC"]
+	path = repos/ECC
+	url = https://github.com/affaan-m/ECC.git
+	shallow = true
+[submodule "repos/firecrawl"]
+	path = repos/firecrawl
+	url = https://github.com/firecrawl/firecrawl.git
+	shallow = true
+[submodule "repos/planning-with-files"]
+	path = repos/planning-with-files
+	url = https://github.com/OthmanAdi/planning-with-files.git
+	shallow = true
+[submodule "repos/github-mcp-server"]
+	path = repos/github-mcp-server
+	url = https://github.com/github/github-mcp-server.git
+	shallow = true
+[submodule "repos/ui-ux-pro-max-skill"]
+	path = repos/ui-ux-pro-max-skill
+	url = https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.git
+	shallow = true
+[submodule "repos/beads"]
+	path = repos/beads
+	url = https://github.com/gastownhall/beads.git
+	shallow = true
+[submodule "repos/andrej-karpathy-skills"]
+	path = repos/andrej-karpathy-skills
+	url = https://github.com/multica-ai/andrej-karpathy-skills.git
+	shallow = true
+[submodule "repos/vibe-kanban"]
+	path = repos/vibe-kanban
+	url = https://github.com/BloopAI/vibe-kanban.git
+	shallow = true
+[submodule "repos/gstack"]
+	path = repos/gstack
+	url = https://github.com/garrytan/gstack.git
+	shallow = true
+[submodule "repos/cc-switch"]
+	path = repos/cc-switch
+	url = https://github.com/farion1231/cc-switch.git
+	shallow = true
+[submodule "repos/taste-skill"]
+	path = repos/taste-skill
+	url = https://github.com/Leonxlnx/taste-skill.git
+	shallow = true
+[submodule "repos/claude-hud"]
+	path = repos/claude-hud
+	url = https://github.com/jarrodwatts/claude-hud.git
+	shallow = true
+[submodule "repos/mattpocock-skills"]
+	path = repos/mattpocock-skills
+	url = https://github.com/mattpocock/skills.git
+	shallow = true
+[submodule "repos/graphify"]
+	path = repos/graphify
+	url = https://github.com/Graphify-Labs/graphify.git
+	shallow = true
+[submodule "repos/agents"]
+	path = repos/agents
+	url = https://github.com/wshobson/agents.git
+	shallow = true
+[submodule "repos/headroom"]
+	path = repos/headroom
+	url = https://github.com/headroomlabs-ai/headroom.git
+	shallow = true
+[submodule "repos/caveman"]
+	path = repos/caveman
+	url = https://github.com/JuliusBrussee/caveman.git
+	shallow = true
+[submodule "repos/rtk"]
+	path = repos/rtk
+	url = https://github.com/rtk-ai/rtk.git
+	shallow = true
+[submodule "repos/ponytail"]
+	path = repos/ponytail
+	url = https://github.com/DietrichGebert/ponytail.git
+	shallow = true
+[submodule "repos/claude-plugins-official"]
+	path = repos/claude-plugins-official
+	url = https://github.com/anthropics/claude-plugins-official.git
+	shallow = true
+[submodule "repos/system-prompts-and-models-of-ai-tools"]
+	path = repos/system-prompts-and-models-of-ai-tools
+	url = https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools.git
+	shallow = true
+[submodule "repos/awesome-claude-code"]
+	path = repos/awesome-claude-code
+	url = https://github.com/hesreallyhim/awesome-claude-code.git
+	shallow = true
+[submodule "repos/awesome-mcp-servers"]
+	path = repos/awesome-mcp-servers
+	url = https://github.com/punkpeye/awesome-mcp-servers.git
+	shallow = true
+[submodule "repos/awesome-claude-skills"]
+	path = repos/awesome-claude-skills
+	url = https://github.com/ComposioHQ/awesome-claude-skills.git
+	shallow = true
